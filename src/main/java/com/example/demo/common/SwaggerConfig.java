@@ -39,28 +39,5 @@ public class SwaggerConfig {
                 new Contact("John Doe", "www.example.com", "myeaddress@company.com"),
                 "License of API", "API license URL", Collections.emptyList());
     }
-//    private ApiInfo apiInfo() {
-//        return  new ApiInfo(
-//                "My REST API",
-//                "Some custom description of API.",
-//                "API TOS",
-//                "Terms of service",
-//                "John Doe", "www.example.com",
-//                "License of API");
-//    }
 
-
-//    @Override
-//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-//        registry.addResourceHandler("swagger-ui.html")
-//                .addResourceLocations("classpath:/META-INF/resources/");
-//
-//        registry.addResourceHandler("/webjars/**")
-//                .addResourceLocations("classpath:/META-INF/resources/webjars/");
-//    }
-//
-//    @Override
-//    public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
-//
-//    }
 }
